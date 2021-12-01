@@ -1,3 +1,37 @@
+.result-card-container {
+    padding: 40px;
+    display: flex;
+}
+
+.result-card-informations {
+    background-color: white;
+    border-radius: 6px;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+.result-card-informations h1 {
+    color: #1890FF;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px 0px 25px;
+}
+
+.result-card-informations p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.result-card-informations p .result-card-label {
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+
 .result-card-photo img {
     min-width: 250px;
     min-height: 250px;
