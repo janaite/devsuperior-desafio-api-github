@@ -14,7 +14,7 @@ const Search = () => {
         </form>
       </div>
       <div className="search-result-container">
-        <ResultCard />
+        <ResultCard login="acnelio" followers="5400" name="Nelio Alves" location="Brazil" avatar_url="https://avatars.githubusercontent.com/u/13897257?v=4"/>
       </div>
     </div>
   );
