@@ -3,6 +3,11 @@
   color: white;
 }
 
+.navbar-container a {
+  color: white;
+  text-decoration: none;
+}
+
 .navbar-container h1 {
   padding-top: 15px;
   padding-bottom: 15px;

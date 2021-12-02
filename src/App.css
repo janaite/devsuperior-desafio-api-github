@@ -132,7 +132,7 @@ table {
 
 /* my custom */
 * {
-  box-shadow: inset 0 0 0 1px rgba(255, 0, 0, 50%);
+  /* box-shadow: inset 0 0 0 1px rgba(255, 0, 0, 50%); */
 }
 
 body {
