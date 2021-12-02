@@ -1,12 +1,15 @@
 .result-card-container {
     padding: 40px;
     display: flex;
+    flex-direction: column;
 }
 
 .result-card-informations {
+    width: 100%;
     background-color: white;
     border-radius: 6px;
-    margin: 0 30px;
+    margin: 0px;
+    margin-top: 10px;
     padding: 10px;
 }
 
@@ -31,8 +34,23 @@
     margin-right: 4px;
 }
 
+.result-card-photo {
+    text-align: center;
+}
 
 .result-card-photo img {
     min-width: 250px;
     min-height: 250px;
+}
+
+@media(min-width: 992px) {
+    .result-card-container {
+        padding: 40px;
+        flex-direction: row;
+    }
+
+    .result-card-informations {
+        margin-top: 0;
+        margin-left: 30px;
+    }
 }
